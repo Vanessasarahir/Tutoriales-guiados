@@ -1,0 +1,235 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6CF44D38-4F64-494D-B804-6C797238AC12}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>ejercicios_guiados</RootNamespace>
+    <AssemblyName>ejercicios guiados</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.DirectoryServices" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\Areas de un triangulo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\Areas de un triangulo.Designer.cs">
+      <DependentUpon>Areas de un triangulo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaCalculadora.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaCalculadora.Designer.cs">
+      <DependentUpon>FormaCalculadora.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaEcuacion.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaEcuacion.Designer.cs">
+      <DependentUpon>FormaEcuacion.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaHome.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaHome.Designer.cs">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaLmp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaLmp.Designer.cs">
+      <DependentUpon>FormaLmp.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaPesos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaPesos.Designer.cs">
+      <DependentUpon>FormaPesos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaPruebasMatematicas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaPruebasMatematicas.Designer.cs">
+      <DependentUpon>FormaPruebasMatematicas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaSalario}.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaSalario}.Designer.cs">
+      <DependentUpon>FormaSalario}.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\FormaVisualizadorDeImagenes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaVisualizadorDeImagenes.Designer.cs">
+      <DependentUpon>FormaVisualizadorDeImagenes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formas\RegistroUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\RegistroUsuario.Designer.cs">
+      <DependentUpon>RegistroUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\Areas de un triangulo.resx">
+      <DependentUpon>Areas de un triangulo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaCalculadora.resx">
+      <DependentUpon>FormaCalculadora.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaEcuacion.resx">
+      <DependentUpon>FormaEcuacion.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaHome.resx">
+      <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaLmp.resx">
+      <DependentUpon>FormaLmp.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaPesos.resx">
+      <DependentUpon>FormaPesos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaPruebasMatematicas.resx">
+      <DependentUpon>FormaPruebasMatematicas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaSalario}.resx">
+      <DependentUpon>FormaSalario}.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaVisualizadorDeImagenes.resx">
+      <DependentUpon>FormaVisualizadorDeImagenes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\RegistroUsuario.resx">
+      <DependentUpon>RegistroUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo login.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\contraseña.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\ingresar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\home.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\homee.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo rosa.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\fondo figuras.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\calculadora.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mate.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\signo de peso.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\euros.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\dolares.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salario 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\salario 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lpm 2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\lpm 1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mate.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mate2.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\mate3.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
