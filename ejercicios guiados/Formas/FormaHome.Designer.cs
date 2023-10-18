@@ -214,6 +214,7 @@ namespace ejercicios_guiados.Formas
             this.juegosEnParejasToolStripMenuItem.Name = "juegosEnParejasToolStripMenuItem";
             this.juegosEnParejasToolStripMenuItem.Size = new System.Drawing.Size(263, 26);
             this.juegosEnParejasToolStripMenuItem.Text = "Juegos en parejas ";
+            this.juegosEnParejasToolStripMenuItem.Click += new System.EventHandler(this.juegosEnParejasToolStripMenuItem_Click);
             // 
             // contextMenuStrip1
             // 

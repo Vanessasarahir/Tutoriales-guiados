@@ -298,7 +298,7 @@ namespace ejercicios_guiados.Formas
             this.buttonEmpezar.Font = new System.Drawing.Font("Modern No. 20", 13.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonEmpezar.Location = new System.Drawing.Point(57, 322);
             this.buttonEmpezar.Name = "buttonEmpezar";
-            this.buttonEmpezar.Size = new System.Drawing.Size(180, 35);
+            this.buttonEmpezar.Size = new System.Drawing.Size(190, 35);
             this.buttonEmpezar.TabIndex = 0;
             this.buttonEmpezar.Text = "Iniciar la prueba";
             this.buttonEmpezar.UseVisualStyleBackColor = false;

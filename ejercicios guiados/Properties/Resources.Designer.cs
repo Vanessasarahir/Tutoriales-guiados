@@ -223,6 +223,26 @@ namespace ejercicios_guiados.Properties {
         /// <summary>
         ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap memorama1 {
+            get {
+                object obj = ResourceManager.GetObject("memorama1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap memorama2 {
+            get {
+                object obj = ResourceManager.GetObject("memorama2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Busca un recurso adaptado de tipo System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap salario_1 {
             get {
                 object obj = ResourceManager.GetObject("salario 1", resourceCulture);

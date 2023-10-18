@@ -77,6 +77,12 @@
     <Compile Include="Formas\FormaHome.Designer.cs">
       <DependentUpon>FormaHome.cs</DependentUpon>
     </Compile>
+    <Compile Include="Formas\FormaJuegos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formas\FormaJuegos.Designer.cs">
+      <DependentUpon>FormaJuegos.cs</DependentUpon>
+    </Compile>
     <Compile Include="Formas\FormaLmp.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -129,6 +135,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaHome.resx">
       <DependentUpon>FormaHome.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formas\FormaJuegos.resx">
+      <DependentUpon>FormaJuegos.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Formas\FormaLmp.resx">
       <DependentUpon>FormaLmp.cs</DependentUpon>
@@ -230,6 +239,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\mate3.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memorama1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\memorama2.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

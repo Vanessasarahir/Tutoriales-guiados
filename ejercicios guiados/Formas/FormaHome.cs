@@ -75,5 +75,11 @@ namespace ejercicios_guiados.Formas
             FormaPruebasMatematicas PruebasMatematicas = new FormaPruebasMatematicas();
             PruebasMatematicas.Show();
         }
+
+        private void juegosEnParejasToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            FormaJuegos juegos = new FormaJuegos();
+            juegos.Show();
+        }
     }
 }
